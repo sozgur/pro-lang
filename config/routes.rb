@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   resources :pages
-  #get 'pages/index'
+  get 'pages/index'
   match '/index', to: 'pages#index', via: 'get'
   #get '/pages', :to 'pages#deneme'
   # The priority is based upon order of creation: first created -> highest priority.
