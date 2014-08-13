@@ -1,0 +1,1 @@
+Typhoeus.put("http://api.kure.tv/json?cmd=get_episodes&order=id_desc&page=1&episode_type_id=1&auth=b48e34ad49209ff30e03dbaba30de063d10c198bf5ca2ae5d71b62025188a355&tid=1378077872")
