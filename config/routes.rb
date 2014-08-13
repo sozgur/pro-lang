@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :pages
+  #resources :pages
   get 'pages/index'
   match '/index', to: 'pages#index', via: 'get'
   #get '/pages', :to 'pages#deneme'
